@@ -1,0 +1,16 @@
+{
+  "name": "jest-training",
+  "version": "1.0.0",
+  "description": "Jest training",
+  "main": "src/index.js",
+  "repository": "https://github.com/alejandronanez/jest-training",
+  "author": "Alejandro Nanez <alejonanez@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
