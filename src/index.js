@@ -1,14 +1,28 @@
+/**
+ * Raiz enesima de un némero
+ * @param int numero 
+ * @param int exponente 
+ */
 
+function raizN(numero, exponente) {
+    return Math.pow(numero, 1 / exponente);
+}
 
-function add() {}
-
+/**
+ * Ordenar alfabéticamente una lista.
+ * @param array list 
+ */
+function orderAlfList(list) {
+    return list.sort();
+}
 
 
 
 
 module.exports = {
-  
-  add,
-  
-  
+
+    raizN,
+    orderAlfList,
+
+
 };
