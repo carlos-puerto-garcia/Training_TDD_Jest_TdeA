@@ -1,4 +1,12 @@
+/**
+ * Raiz enesima de un némero
+ * @param int numero 
+ * @param int exponente 
+ */
 
+function raizN(numero, exponente) {
+    return Math.pow(numero, 1 / exponente);
+}
 
 function findMax(array) {
   var i;
@@ -14,6 +22,13 @@ function findMax(array) {
 function square(a, b) {
   return a * b;
 }
+/**
+ * Ordenar alfabéticamente una lista.
+ * @param array list 
+ */
+function orderAlfList(list) {
+    return list.sort();
+}
 
 
 
@@ -21,7 +36,7 @@ function square(a, b) {
 module.exports = {
   
    findMax,
-  square,
-  
+   square,
+    raizN,
+    orderAlfList
 };
-
