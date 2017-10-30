@@ -1,23 +1,23 @@
-const calc = require('../index');
-const multiplicar = calc.multiplicar;
-const multiplos = calc.multiplos;
+function add() {}
 
-describe('Calculator module', () => {
-  describe('add', () => {
-    
-    describe('multiplicar', () => {
-		it('DEBERIA MULTIPLICAR DOS NUMEROS', () =>{
-			expect(multiplicar(4,3)).toBe(12);
+function multiplicar(a,b){
+	return b*a;
+}
 
-		});
+function multiplos(valor) { //multiplos de dos
+	var multiplos2;
+    for(var i = 1; i < 100; i++) {
+        if (valor[i]% 2 ==0 ) {
+            multiplos2 = valor[i];
+        }
+    }
+    return multiplos2;
+  }
 
-	});
-
-	describe('multiplos', () => {
-     it('Deberia encontrar los multiplos de dos' , () =>{
-       expect(multiplos([3,4,5])).toBe(4)
-   		});
-	
-	});
-});   
-});
+module.exports = {
+  
+  add,
+  multiplicar,
+  multiplos,
+  
+};
