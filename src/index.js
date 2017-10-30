@@ -8,6 +8,13 @@ function raizN(numero, exponente) {
     return Math.pow(numero, 1 / exponente);
 }
 
+function dividir(a, b) {
+  return a/b;
+}
+
+function primerElemento(array){
+  return array.shift();
+}
 function findMax(array) {
   var i;
   var max = 0;
@@ -30,11 +37,17 @@ function orderAlfList(list) {
     return list.sort();
 }
 
+}
 
+function ultimoElemento(array){
+  return array.pop();
+}
 
 
 module.exports = {
-  
+  dividir,
+  primerElemento,
+  ultimoElemento,
    findMax,
    square,
     raizN,
