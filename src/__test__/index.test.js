@@ -1,9 +1,9 @@
 const calc = require('../index');
 
-describe('Calculator module', () => {
+describe('modulo TDD con Jest', () => {
   
 
-  describe('add', () => {
+  describe('sumar', () => {
 
   
 
