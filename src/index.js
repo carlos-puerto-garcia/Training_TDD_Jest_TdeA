@@ -4,7 +4,9 @@
  * @param int exponente 
  */
 
-function add() {}
+function add(a, b) {
+  return a+b;
+}
 
 function multiplicar(a,b){
 	return b*a;
@@ -64,11 +66,12 @@ module.exports = {
   dividir,
   primerElemento,
   ultimoElemento,
-   findMax,
-   square,
-    raizN,
-    orderAlfList,
-     multiplicar,
+  findMax,
+  square,
+  raizN,
+  orderAlfList,
+  multiplicar,
   multiplos,
+  add,
 
 };
