@@ -7,6 +7,18 @@ const ultimoElemento = calc.ultimoElemento;
 const square = calc.square;
 const findMax = calc.findMax;
 
+describe('sum', () => {
+  it('It sums two numbers', () => {
+    expect(calc.sum(1, 2)).toBe(3);
+  });
+});
+
+describe('combine', () => {
+  it('It combines two arrays', () => {
+    expect(calc.combine([1, 2, 3], [4, 5, 6])).toEqual([1, 2, 3, 4, 5, 6]);
+  });
+});
+
 describe('Calculator module', () => {
   describe('multiplicar', () => {
 		it('DEBERIA MULTIPLICAR DOS NUMEROS', () =>{
