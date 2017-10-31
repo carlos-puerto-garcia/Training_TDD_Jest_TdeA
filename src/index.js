@@ -66,11 +66,12 @@ module.exports = {
   dividir,
   primerElemento,
   ultimoElemento,
-   findMax,
-   square,
-    raizN,
-    orderAlfList,
-     multiplicar,
+  findMax,
+  square,
+  raizN,
+  orderAlfList,
+  multiplicar,
   multiplos,
+  add,
 
 };
