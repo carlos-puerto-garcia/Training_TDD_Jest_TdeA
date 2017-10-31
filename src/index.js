@@ -4,6 +4,16 @@
  * @param int exponente 
  */
 
+ function sum(a, b) {
+  return a + b;
+}
+
+function combine(array_one, array_two) {
+  return array_one.concat(array_two);
+}
+
+module.exports = { sum: sum, combine: combine };
+
 function add(a, b) {
   return a+b;
 }
@@ -55,8 +65,6 @@ function orderAlfList(list) {
     return list.sort();
 }
 
-}
-
 function ultimoElemento(array){
   return array.pop();
 }
@@ -73,5 +81,6 @@ module.exports = {
   multiplicar,
   multiplos,
   add,
-
+  sum,
+  combine
 };
