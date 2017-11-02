@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Raiz enesima de un némero
  * @param int numero 
  * @param int exponente 
@@ -18,7 +18,7 @@ function add(a, b) {
   return a+b;
 }
 
-function multiplicar(a,b){
+function multiply(a,b){
 	return b*a;
 }
 
@@ -78,9 +78,9 @@ module.exports = {
   square,
   raizN,
   orderAlfList,
-  multiplicar,
+  multiply,
   multiplos,
   add,
   sum,
-  combine
+  combine,
 };
