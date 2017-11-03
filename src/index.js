@@ -1,8 +1,4 @@
-﻿/**
- * Raiz enesima de un némero
- * @param int numero 
- * @param int exponente 
- */
+﻿
 
  function sum(a, b) {
   return a + b;
@@ -18,7 +14,7 @@ function add(a, b) {
   return a+b;
 }
 
-function multiply(a,b){
+function multiplicar(a,b){
 	return b*a;
 }
 
@@ -31,7 +27,11 @@ function multiplos(valor) { //multiplos de dos
     }
     return multiplos2;
   }
-  
+/**
+ * Raiz enesima de un némero
+ * @param int numero 
+ * @param int exponente 
+ */
 function raizN(numero, exponente) {
     return Math.pow(numero, 1 / exponente);
 }
@@ -78,7 +78,7 @@ module.exports = {
   square,
   raizN,
   orderAlfList,
-  multiply,
+  multiplicar,
   multiplos,
   add,
   sum,
