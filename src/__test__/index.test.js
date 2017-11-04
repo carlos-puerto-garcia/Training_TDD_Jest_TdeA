@@ -6,6 +6,7 @@ const primerElemento = calc.primerElemento;
 const ultimoElemento = calc.ultimoElemento;
 const square = calc.square;
 const findMax = calc.findMax;
+const mult3=calc.mult3;
 
 
 
@@ -89,5 +90,11 @@ describe('Calculator module', () => {
     });
   });
 
+  describe('mult3', () => {
+    it('Deberia encontrar los multiplos de tres' , () =>{
+      expect(mult3([3,4,5,6])).toEqual([3,6]);
+      });
+ 
+ });
 });
 
