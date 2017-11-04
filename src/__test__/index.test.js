@@ -6,6 +6,7 @@ const primerElemento = calc.primerElemento;
 const ultimoElemento = calc.ultimoElemento;
 const square = calc.square;
 const findMax = calc.findMax;
+const exponente = calc.exponente;
 
 
 
@@ -18,6 +19,13 @@ describe('Calculator module', () => {
 
 	});
 
+describe('exponente', () => {
+    it('devuelve la base elevada al exponente', () =>{
+      expect(exponente(2,3)).toBe(8);
+
+    });
+
+  });
 	describe('multiplos', () => {
      it('Deberia encontrar los multiplos de dos' , () =>{
        expect(multiplos([3,4,5])).toBe(4)
@@ -76,11 +84,7 @@ describe('Calculator module', () => {
   });
 
 
-  describe('raiz cubico', () => {
-    it('Raíz cúbica de un número', () => {
-        expect(calc.raizN(27, 3)).toBe(3);
-    });
-  });
+
 
   describe('ordenar', () => {
     it('Ordenar alfabéticamente una lista', () => {

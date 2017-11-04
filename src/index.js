@@ -32,8 +32,8 @@ function multiplos(valor) { //multiplos de dos
  * @param int numero 
  * @param int exponente 
  */
-function raizN(numero, exponente) {
-    return Math.pow(numero, 1 / exponente);
+function exponente(numero, exponente) {
+    return Math.pow(numero,exponente);
 }
 
 function dividir(a, b) {
@@ -72,11 +72,11 @@ function ultimoElemento(array){
 
 module.exports = {
   dividir,
+  exponente,
   primerElemento,
   ultimoElemento,
   findMax,
   square,
-  raizN,
   orderAlfList,
   multiplicar,
   multiplos,
