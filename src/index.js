@@ -18,7 +18,10 @@ function multiplicar(a,b){
 	return b*a;
 }
 
-function multiplos(valor) { //multiplos de dos
+
+
+function multiplos(valor)
+ { //multiplos de dos
 	var multiplos2;
     for(var i = 1; i < 100; i++) {
         if (valor[i]% 2 ==0 ) {
@@ -69,6 +72,19 @@ function ultimoElemento(array){
   return array.pop();
 }
 
+function mult3(valor)
+{
+  var hola=[];
+  for (var a=0;a<valor.length;a++)
+  {
+    if (valor[a]% 3 == 0 )
+    {
+      hola.push(valor[a]);
+    }
+  }
+  return hola;
+}
+
 
 module.exports = {
   dividir,
@@ -83,4 +99,5 @@ module.exports = {
   add,
   sum,
   combine,
+  mult3,
 };
