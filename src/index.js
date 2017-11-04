@@ -1,6 +1,4 @@
-﻿
-
- function sum(a, b) {
+﻿ function sum(a, b) {
   return a + b;
 }
 
@@ -72,6 +70,12 @@ function ultimoElemento(array){
   return array.pop();
 }
 
+
+function multiplicar1(a,b,c){
+	return a*b*c;
+}
+
+
 function mult3(valor)
 {
   var hola=[];
@@ -99,5 +103,7 @@ module.exports = {
   add,
   sum,
   combine,
+  multiplicar1,
   mult3,
+
 };

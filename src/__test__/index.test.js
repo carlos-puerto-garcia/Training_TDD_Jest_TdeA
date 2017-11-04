@@ -6,7 +6,11 @@ const primerElemento = calc.primerElemento;
 const ultimoElemento = calc.ultimoElemento;
 const square = calc.square;
 const findMax = calc.findMax;
+
+const multiplicar1 = calc.multiplicar1;
+
 const mult3=calc.mult3;
+
 
 
 
@@ -23,8 +27,10 @@ describe('Calculator module', () => {
      it('Deberia encontrar los multiplos de dos' , () =>{
        expect(multiplos([3,4,5])).toBe(4)
    		});
-	
-	});
+  
+
+  });
+  
   
   describe('square', () => {
 		it('Deberia multipicar dos númers' , () =>{
@@ -90,11 +96,23 @@ describe('Calculator module', () => {
     });
   });
 
+
+  describe('multiplicar1', () => {
+		it('MULTIPLICAR TRES NUMEROS', () =>{
+			expect(multiplicar1(5,4,8)).toBe(160);
+
+		});
+
+	});
+
+
+
   describe('mult3', () => {
     it('Deberia encontrar los multiplos de tres' , () =>{
       expect(mult3([3,4,5,6])).toEqual([3,6]);
       });
  
  });
+
 });
 
