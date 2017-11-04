@@ -6,6 +6,7 @@ const primerElemento = calc.primerElemento;
 const ultimoElemento = calc.ultimoElemento;
 const square = calc.square;
 const findMax = calc.findMax;
+const dividir1 = calc.dividir1;
 
 
 
@@ -89,5 +90,10 @@ describe('Calculator module', () => {
     });
   });
 
+  describe('dividir1', () => {
+    test('Deberia dividir dos numeros', () => {
+      expect(dividir(8, 2)).toBe(4);
+    }); 
+  });
 });
 
