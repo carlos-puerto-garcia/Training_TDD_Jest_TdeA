@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "Jest training",
     "main": "src/index.js",
-    "repository": "https://github.com/alejandronanez/jest-training",
-    "author": "Alejandro Nanez <alejonanez@gmail.com>",
+    "repository": "https://github.com/carlos-puerto-garcia/Training_TDD_Jest_TdeA",
+    "author": "Carlos Puerto García <cpuertog@gmail.com>",
     "license": "MIT",
     "private": false,
     "dependencies": {
@@ -21,10 +21,16 @@
         "test": "jest"
     },
     "jest": {
-        "moduleFileExtensions": ["ts", "tsx", "js"],
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ],
         "transform": {
             "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
         },
-        "testMatch": ["**/__test__/*.(ts|tsx|js)"]
+        "testMatch": [
+            "**/__test__/*.(ts|tsx|js)"
+        ]
     }
 }
