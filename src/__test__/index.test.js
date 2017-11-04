@@ -6,7 +6,9 @@ const primerElemento = calc.primerElemento;
 const ultimoElemento = calc.ultimoElemento;
 const square = calc.square;
 const findMax = calc.findMax;
+const dividir1 = calc.dividir1;
 const mult3=calc.mult3;
+
 
 
 
@@ -90,11 +92,17 @@ describe('Calculator module', () => {
     });
   });
 
+  describe('dividir1', () => {
+    test('Deberia dividir dos numeros', () => {
+      expect(dividir(8, 2)).toBe(4);
+    }); 
+  });
   describe('mult3', () => {
     it('Deberia encontrar los multiplos de tres' , () =>{
       expect(mult3([3,4,5,6])).toEqual([3,6]);
       });
  
  });
+
 });
 
