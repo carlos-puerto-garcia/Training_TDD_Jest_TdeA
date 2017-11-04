@@ -69,6 +69,11 @@ function ultimoElemento(array){
   return array.pop();
 }
 
+function exponente(a, b){
+return Math.pow(a,b);
+
+}
+
 
 module.exports = {
   dividir,
@@ -83,4 +88,5 @@ module.exports = {
   add,
   sum,
   combine,
+  exponente,
 };

@@ -6,6 +6,7 @@ const primerElemento = calc.primerElemento;
 const ultimoElemento = calc.ultimoElemento;
 const square = calc.square;
 const findMax = calc.findMax;
+const exponente=calc.exponente;
 
 
 
@@ -88,6 +89,12 @@ describe('Calculator module', () => {
         expect(calc.orderAlfList(list)).toEqual(["AngularJS", "C#", "JAVA", "PHP", "Ruby"]);
     });
   });
+  describe('exponencial', () => {
+    it('elevar el 4 al exponente 2', () =>{
+      expect(exponente(4, 2)).toBe(16);
+
+    });
 
 });
 
+});
