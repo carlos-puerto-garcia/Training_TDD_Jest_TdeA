@@ -6,6 +6,7 @@ const primerElemento = calc.primerElemento;
 const ultimoElemento = calc.ultimoElemento;
 const square = calc.square;
 const findMax = calc.findMax;
+const multiplosdel5 = calc.multiplosdel5;
 
 
 
@@ -32,6 +33,11 @@ describe('Calculator module', () => {
 		});
   
   });
+   describe('multiplosdel5',()=>{
+  it('deberia encontrar los multimos del cinco',()=>{
+    expect(multiplosdel5([3,15])).toBe(15)
+  });
+ });
 
   describe('dividir', () => {
     test('Deberia dividir dos numeros', () => {
@@ -88,6 +94,7 @@ describe('Calculator module', () => {
         expect(calc.orderAlfList(list)).toEqual(["AngularJS", "C#", "JAVA", "PHP", "Ruby"]);
     });
   });
+
 
 });
 

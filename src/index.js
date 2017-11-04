@@ -17,6 +17,17 @@ function add(a, b) {
 function multiplicar(a,b){
 	return b*a;
 }
+ function multiplosdel5(valor){
+  var multiplos5;
+
+  for(i=0; i < 100; i++){
+    if(valor[i] % 5 == 0){
+      multiplosdel5=valor[i];
+    }
+  }
+
+ return multiplosdel5;
+}
 
 function multiplos(valor) { //multiplos de dos
 	var multiplos2;
@@ -83,4 +94,5 @@ module.exports = {
   add,
   sum,
   combine,
+  multiplosdel5,
 };
