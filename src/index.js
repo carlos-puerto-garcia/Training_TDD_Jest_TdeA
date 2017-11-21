@@ -18,6 +18,16 @@ function multiplicar(a,b){
 	return b*a;
 }
 
+// Hamilton Renteria Moreno
+function multi(a,b,c,d){
+	return a*b*c*d;
+}
+
+function orderAlfList(list) {
+  return list.sort();
+}
+
+// Fin Hamilton Renteria Moreno
 
 
 function multiplos(valor)

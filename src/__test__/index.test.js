@@ -8,7 +8,21 @@ const square = calc.square;
 const findMax = calc.findMax;
 const mult3=calc.mult3;
 
-
+// Hamilton Renteria Moreno
+describe('Calculadora', () => {
+  describe('multi', () => {
+		it('DEBERIA MULTIPLICAR CUATRO NUMEROS', () =>{
+			expect(multiplicar(4,3,10,2)).toBe(240);
+		});
+  });
+  
+  describe('Ordenamiento', () => {
+    it('Ordenar los valores de una lista', () => {
+        var list = [9,3,4,5,8,1,6,7,2];
+        expect(calc.orderAlfList(list)).toEqual([1,2,3,4,5,6,7,8,9]);
+    });
+  });
+// Fin Hamilton Renteria Moreno
 
 describe('Calculator module', () => {
   describe('multiplicar', () => {
